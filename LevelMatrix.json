@@ -1,0 +1,90 @@
+{
+    "INV": {
+        "Folder": "1 - Logic Gates",
+        "File": "1 - INV.json"
+    },
+    "AND": {
+        "Folder": "1 - Logic Gates",
+        "File": "2 - AND.json"
+    },
+    "OR": {
+        "Folder": "1 - Logic Gates",
+        "File": "3 - OR.json"
+    },
+    "XOR": {
+        "Folder": "1 - Logic Gates",
+        "File": "4 - XOR.json"
+    },
+
+    "HALFADD": {
+        "Folder": "2 - Arithmetics",
+        "File": "1 - HALFADD.json"
+    },
+    "FULLADD": {
+        "Folder": "2 - Arithmetics",
+        "File": "2 - FULLADD.json"
+    },
+    "ADD2": {
+        "Folder": "2 - Arithmetics",
+        "File": "3 - ADD2.json"
+    },
+    "INC": {
+        "Folder": "2 - Arithmetics",
+        "File": "4 - INC.json"
+    },
+    "SUB": {
+        "Folder": "2 - Arithmetics",
+        "File": "5 - SUB.json"
+    },
+    "ISZERO": {
+        "Folder": "2 - Arithmetics",
+        "File": "6 - ISZERO.json"
+    },
+    "SIGN": {
+        "Folder": "2 - Arithmetics",
+        "File": "7 - SIGN.json"
+    },
+
+    "MULTIPLEXER": {
+        "Folder": "3 - Plumbing",
+        "File": "1 - MULTIPLEXER.json"
+    },
+    "DEMUX": {
+        "Folder": "3 - Plumbing",
+        "File": "2 - DEMUX.json"
+    },
+
+    "LATCH": {
+        "Folder": "4 - Memory",
+        "File": "1 - LATCH.json"
+    },
+    "DFF": {
+        "Folder": "4 - Memory",
+        "File": "2 - DFF.json"
+    },
+    "DFF2": {
+        "Folder": "4 - Memory",
+        "File": "3 - DFF2.json"
+    },
+    "COUNTER": {
+        "Folder": "4 - Memory",
+        "File": "4 - COUNTER.json"
+    },
+    "RAM": {
+        "Folder": "4 - Memory",
+        "File": "5 - RAM.json"
+    },
+
+    "ALU_PRESET": {
+        "Folder": "5 - ALU",
+        "File": "1 - ALU_PRESET.json"
+    },
+    "ALU": {
+        "Folder": "5 - ALU",
+        "File": "2 - ALU.json"
+    },
+    "CONDITION": {
+        "Folder": "5 - ALU",
+        "File": "3 - CONDITION.json"
+    }
+}
