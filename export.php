@@ -53,7 +53,8 @@ class Export {
 	 * @param string $level
 	 * @return string
 	 */
-	public function writeLevel(string $level):string {
+	public function writeLevel(string $level):string
+	{
 
 		$item = $this->_levelItem($level);
 
@@ -102,7 +103,6 @@ class Export {
 	 */
 	private function _loadLevelFile(string $level):string
 	{
-
 		$file = $this->_matrixToFile($level);
 		if(!file_exists($file)) {
 			throw new \Exception(sprintf("Can't resolve file for level \"%s\" (%s)", $level, $file));
@@ -118,7 +118,6 @@ class Export {
 	 */
 	private function _matrixToFile(string $level):string
 	{
-
 		if(!isset($this->matrix[$level])) {
 			throw new \Exception(sprintf("Unknown level in matrix: %s", $level));
 		}
@@ -131,7 +130,7 @@ class Export {
 	 * @param string $content
 	 * @return string
 	 */
-	private function _wrapper(string $item, string $content)
+	private function _wrapper(string $item, string $content):string
 	{
 		$wrapper = "localStorage.setItem(\"%s\", \"%s\");\n";
 
