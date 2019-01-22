@@ -24,5 +24,6 @@
    "INSTRUCTION_DECODER",
    "EXECUTION_ENGINE",
    "PROGRAM_ENGINE",
-   "CPU"
+   "CPU",
+   "IO"
 ]

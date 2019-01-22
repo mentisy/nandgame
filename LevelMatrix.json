@@ -107,5 +107,9 @@
     "CPU": {
         "Folder": "6 - Processor",
         "File": "5 - CPU.json"
+    },
+    "IO": {
+        "Folder": "6 - Processor",
+        "File": "6 - IO.json"
     }
 }

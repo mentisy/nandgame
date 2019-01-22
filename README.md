@@ -36,4 +36,4 @@ An educational puzzle game. Solve a series of tasks where you build increasingly
   - [x] **Control Unit**
   - [x] **Program Engine**
   - [x] **Computer**
-  - [ ] **Input and Output**
+  - [x] **Input and Output** *(Possible to solve with fewer components)*
