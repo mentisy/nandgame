@@ -19,5 +19,6 @@
    "RAM",
    "ALU_PRESET",
    "ALU",
-   "CONDITION"
+   "CONDITION",
+   "CPU_STATE"
 ]
