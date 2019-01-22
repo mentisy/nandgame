@@ -92,7 +92,6 @@
         "Folder": "6 - Processor",
         "File": "1 - CPU_STATE.json"
     },
-
     "INSTRUCTION_DECODER": {
         "Folder": "6 - Processor",
         "File": "2 - INSTRUCTION_DECODER.json"
@@ -100,5 +99,9 @@
     "EXECUTION_ENGINE": {
         "Folder": "6 - Processor",
         "File": "3 - EXECUTION_ENGINE.json"
+    },
+    "PROGRAM_ENGINE": {
+        "Folder": "6 - Processor",
+        "File": "4 - PROGRAM_ENGINE.json"
     }
 }
