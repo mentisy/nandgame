@@ -20,5 +20,6 @@
    "ALU_PRESET",
    "ALU",
    "CONDITION",
-   "CPU_STATE"
+   "CPU_STATE",
+   "INSTRUCTON_DECODER"
 ]

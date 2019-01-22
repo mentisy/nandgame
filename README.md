@@ -31,8 +31,8 @@ An educational puzzle game. Solve a series of tasks where you build increasingly
   - [x] **ALU** *(Possible to solve with fewer components)*
   - [x] **Condition** *(Possible to solve with fewer components)*
 - ### Processor
-  - [ ] **Combined Memory**
-  - [ ] **Instruction Decoder**
+  - [x] **Combined Memory**
+  - [x] **Instruction Decoder** *(Possible to solve with fewer components)*
   - [ ] **Control Unit**
   - [ ] **Program Engine**
   - [ ] **Computer**

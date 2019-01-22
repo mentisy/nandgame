@@ -1,6 +1,6 @@
 <?php
 
-require 'export.php';
+require 'Export.php';
 
 use Avolle\Nandgame\Export;
 

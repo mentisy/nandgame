@@ -91,5 +91,10 @@
     "CPU_STATE": {
         "Folder": "6 - Processor",
         "File": "1 - CPU_STATE.json"
+    },
+
+    "INSTRUCTION_DECODER": {
+        "Folder": "6 - Processor",
+        "File": "2 - INSTRUCTION_DECODER.json"
     }
 }
