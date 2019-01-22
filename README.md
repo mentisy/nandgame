@@ -35,5 +35,5 @@ An educational puzzle game. Solve a series of tasks where you build increasingly
   - [x] **Instruction Decoder** *(Possible to solve with fewer components)*
   - [x] **Control Unit**
   - [x] **Program Engine**
-  - [ ] **Computer**
+  - [x] **Computer**
   - [ ] **Input and Output**
