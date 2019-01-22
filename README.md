@@ -33,7 +33,7 @@ An educational puzzle game. Solve a series of tasks where you build increasingly
 - ### Processor
   - [x] **Combined Memory**
   - [x] **Instruction Decoder** *(Possible to solve with fewer components)*
-  - [ ] **Control Unit**
+  - [x] **Control Unit**
   - [ ] **Program Engine**
   - [ ] **Computer**
   - [ ] **Input and Output**

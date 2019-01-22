@@ -96,5 +96,9 @@
     "INSTRUCTION_DECODER": {
         "Folder": "6 - Processor",
         "File": "2 - INSTRUCTION_DECODER.json"
+    },
+    "EXECUTION_ENGINE": {
+        "Folder": "6 - Processor",
+        "File": "3 - EXECUTION_ENGINE.json"
     }
 }
