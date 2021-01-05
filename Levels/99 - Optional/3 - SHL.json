@@ -1,0 +1,204 @@
+{
+    "nodes": [
+        {
+            "type": "SPLIT16",
+            "x": 210,
+            "y": 478,
+            "id": "0"
+        },
+        {
+            "type": "BUNDLE16",
+            "x": 231,
+            "y": 303,
+            "id": "1"
+        },
+        {
+            "type": "ZERO",
+            "x": 432,
+            "y": 491,
+            "id": "2"
+        }
+    ],
+    "connections": [
+        {
+            "source": {
+                "nodeId": "input",
+                "connectorId": "0"
+            },
+            "target": {
+                "nodeId": "0",
+                "connectorId": "0"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "1"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "0"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "2"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "1"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "3"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "2"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "4"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "3"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "5"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "4"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "6"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "5"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "7"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "6"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "8"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "7"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "9"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "8"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "10"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "9"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "11"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "10"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "12"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "11"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "13"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "12"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "14"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "13"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "15"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "14"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "2",
+                "connectorId": "0"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "15"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "1",
+                "connectorId": "0"
+            },
+            "target": {
+                "nodeId": "output",
+                "connectorId": "0"
+            }
+        }
+    ]
+}
