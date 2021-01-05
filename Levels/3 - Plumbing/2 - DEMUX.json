@@ -1,94 +1,94 @@
-{  
-   "nodes":[  
-      {  
-         "type":"AND",
-         "x":56,
-         "y":306,
-         "id":"0"
-      },
-      {  
-         "type":"INV",
-         "x":168,
-         "y":373,
-         "id":"1"
-      },
-      {  
-         "type":"AND",
-         "x":223,
-         "y":230,
-         "id":"2"
-      }
-   ],
-   "connections":[  
-      {  
-         "source":{  
-            "nodeId":"input",
-            "connectorId":"0"
-         },
-         "target":{  
-            "nodeId":"0",
-            "connectorId":"0"
-         }
-      },
-      {  
-         "source":{  
-            "nodeId":"input",
-            "connectorId":"1"
-         },
-         "target":{  
-            "nodeId":"0",
-            "connectorId":"1"
-         }
-      },
-      {  
-         "source":{  
-            "nodeId":"input",
-            "connectorId":"0"
-         },
-         "target":{  
-            "nodeId":"1",
-            "connectorId":"0"
-         }
-      },
-      {  
-         "source":{  
-            "nodeId":"1",
-            "connectorId":"0"
-         },
-         "target":{  
-            "nodeId":"2",
-            "connectorId":"0"
-         }
-      },
-      {  
-         "source":{  
-            "nodeId":"input",
-            "connectorId":"1"
-         },
-         "target":{  
-            "nodeId":"2",
-            "connectorId":"1"
-         }
-      },
-      {  
-         "source":{  
-            "nodeId":"0",
-            "connectorId":"0"
-         },
-         "target":{  
-            "nodeId":"output",
-            "connectorId":"0"
-         }
-      },
-      {  
-         "source":{  
-            "nodeId":"2",
-            "connectorId":"0"
-         },
-         "target":{  
-            "nodeId":"output",
-            "connectorId":"1"
-         }
-      }
-   ]
+{
+    "nodes": [
+        {
+            "type": "AND",
+            "x": 56,
+            "y": 306,
+            "id": "0"
+        },
+        {
+            "type": "INV",
+            "x": 168,
+            "y": 373,
+            "id": "1"
+        },
+        {
+            "type": "AND",
+            "x": 223,
+            "y": 230,
+            "id": "2"
+        }
+    ],
+    "connections": [
+        {
+            "source": {
+                "nodeId": "input",
+                "connectorId": "0"
+            },
+            "target": {
+                "nodeId": "0",
+                "connectorId": "0"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "input",
+                "connectorId": "1"
+            },
+            "target": {
+                "nodeId": "0",
+                "connectorId": "1"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "input",
+                "connectorId": "0"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "0"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "1",
+                "connectorId": "0"
+            },
+            "target": {
+                "nodeId": "2",
+                "connectorId": "0"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "input",
+                "connectorId": "1"
+            },
+            "target": {
+                "nodeId": "2",
+                "connectorId": "1"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "0"
+            },
+            "target": {
+                "nodeId": "output",
+                "connectorId": "0"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "2",
+                "connectorId": "0"
+            },
+            "target": {
+                "nodeId": "output",
+                "connectorId": "1"
+            }
+        }
+    ]
 }

@@ -1,42 +1,42 @@
-{  
-   "nodes":[  
-      {  
-         "type":"NAND",
-         "x":147,
-         "y":320,
-         "id":"0"
-      }
-   ],
-   "connections":[  
-      {  
-         "source":{  
-            "nodeId":"input",
-            "connectorId":"0"
-         },
-         "target":{  
-            "nodeId":"0",
-            "connectorId":"0"
-         }
-      },
-      {  
-         "source":{  
-            "nodeId":"input",
-            "connectorId":"0"
-         },
-         "target":{  
-            "nodeId":"0",
-            "connectorId":"1"
-         }
-      },
-      {  
-         "source":{  
-            "nodeId":"0",
-            "connectorId":"0"
-         },
-         "target":{  
-            "nodeId":"output",
-            "connectorId":"0"
-         }
-      }
-   ]
+{
+    "nodes": [
+        {
+            "type": "NAND",
+            "x": 147,
+            "y": 320,
+            "id": "0"
+        }
+    ],
+    "connections": [
+        {
+            "source": {
+                "nodeId": "input",
+                "connectorId": "0"
+            },
+            "target": {
+                "nodeId": "0",
+                "connectorId": "0"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "input",
+                "connectorId": "0"
+            },
+            "target": {
+                "nodeId": "0",
+                "connectorId": "1"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "0"
+            },
+            "target": {
+                "nodeId": "output",
+                "connectorId": "0"
+            }
+        }
+    ]
 }

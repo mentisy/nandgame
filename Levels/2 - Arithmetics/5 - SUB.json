@@ -1,106 +1,106 @@
-{  
-   "nodes":[  
-      {  
-         "type":"ADDC16",
-         "x":302,
-         "y":255,
-         "id":"0"
-      },
-      {  
-         "type":"ADDC16",
-         "x":109,
-         "y":123,
-         "id":"1"
-      },
-      {  
-         "type":"INV16",
-         "x":280,
-         "y":415,
-         "id":"2"
-      },
-      {  
-         "type":"INV",
-         "x":488,
-         "y":340,
-         "id":"3"
-      },
-      {  
-         "type":"ZERO",
-         "x":487,
-         "y":460,
-         "id":"4"
-      }
-   ],
-   "connections":[  
-      {  
-         "source":{  
-            "nodeId":"2",
-            "connectorId":"0"
-         },
-         "target":{  
-            "nodeId":"0",
-            "connectorId":"0"
-         }
-      },
-      {  
-         "source":{  
-            "nodeId":"3",
-            "connectorId":"0"
-         },
-         "target":{  
-            "nodeId":"0",
-            "connectorId":"1"
-         }
-      },
-      {  
-         "source":{  
-            "nodeId":"input",
-            "connectorId":"0"
-         },
-         "target":{  
-            "nodeId":"1",
-            "connectorId":"0"
-         }
-      },
-      {  
-         "source":{  
-            "nodeId":"0",
-            "connectorId":"1"
-         },
-         "target":{  
-            "nodeId":"1",
-            "connectorId":"1"
-         }
-      },
-      {  
-         "source":{  
-            "nodeId":"input",
-            "connectorId":"1"
-         },
-         "target":{  
-            "nodeId":"2",
-            "connectorId":"0"
-         }
-      },
-      {  
-         "source":{  
-            "nodeId":"4",
-            "connectorId":"0"
-         },
-         "target":{  
-            "nodeId":"3",
-            "connectorId":"0"
-         }
-      },
-      {  
-         "source":{  
-            "nodeId":"1",
-            "connectorId":"1"
-         },
-         "target":{  
-            "nodeId":"output",
-            "connectorId":"0"
-         }
-      }
-   ]
+{
+    "nodes": [
+        {
+            "type": "ADDC16",
+            "x": 302,
+            "y": 255,
+            "id": "0"
+        },
+        {
+            "type": "ADDC16",
+            "x": 109,
+            "y": 123,
+            "id": "1"
+        },
+        {
+            "type": "INV16",
+            "x": 280,
+            "y": 415,
+            "id": "2"
+        },
+        {
+            "type": "INV",
+            "x": 488,
+            "y": 340,
+            "id": "3"
+        },
+        {
+            "type": "ZERO",
+            "x": 487,
+            "y": 460,
+            "id": "4"
+        }
+    ],
+    "connections": [
+        {
+            "source": {
+                "nodeId": "2",
+                "connectorId": "0"
+            },
+            "target": {
+                "nodeId": "0",
+                "connectorId": "0"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "3",
+                "connectorId": "0"
+            },
+            "target": {
+                "nodeId": "0",
+                "connectorId": "1"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "input",
+                "connectorId": "0"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "0"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "0",
+                "connectorId": "1"
+            },
+            "target": {
+                "nodeId": "1",
+                "connectorId": "1"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "input",
+                "connectorId": "1"
+            },
+            "target": {
+                "nodeId": "2",
+                "connectorId": "0"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "4",
+                "connectorId": "0"
+            },
+            "target": {
+                "nodeId": "3",
+                "connectorId": "0"
+            }
+        },
+        {
+            "source": {
+                "nodeId": "1",
+                "connectorId": "1"
+            },
+            "target": {
+                "nodeId": "output",
+                "connectorId": "0"
+            }
+        }
+    ]
 }

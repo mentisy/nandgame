@@ -15,7 +15,6 @@
         "Folder": "1 - Logic Gates",
         "File": "4 - XOR.json"
     },
-
     "HALFADD": {
         "Folder": "2 - Arithmetics",
         "File": "1 - HALFADD.json"
@@ -44,7 +43,6 @@
         "Folder": "2 - Arithmetics",
         "File": "7 - SIGN.json"
     },
-
     "MULTIPLEXER": {
         "Folder": "3 - Plumbing",
         "File": "1 - MULTIPLEXER.json"
@@ -53,7 +51,6 @@
         "Folder": "3 - Plumbing",
         "File": "2 - DEMUX.json"
     },
-
     "LATCH": {
         "Folder": "4 - Memory",
         "File": "1 - LATCH.json"
@@ -74,7 +71,6 @@
         "Folder": "4 - Memory",
         "File": "5 - RAM.json"
     },
-
     "ALU_PRESET": {
         "Folder": "5 - ALU",
         "File": "1 - ALU_PRESET.json"
@@ -87,7 +83,6 @@
         "Folder": "5 - ALU",
         "File": "3 - CONDITION.json"
     },
-
     "CPU_STATE": {
         "Folder": "6 - Processor",
         "File": "1 - CPU_STATE.json"
