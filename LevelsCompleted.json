@@ -25,5 +25,8 @@
     "EXECUTION_ENGINE",
     "PROGRAM_ENGINE",
     "CPU",
-    "IO"
+    "IO",
+    "NOR",
+    "XNOR",
+    "SHL"
 ]

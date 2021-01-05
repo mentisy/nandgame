@@ -40,3 +40,10 @@ simplest logical components and ends up with a programmable computer.
     - [x] **Program Engine**
     - [x] **Computer**
     - [x] **Input and Output** *(Possible to solve with fewer components)*
+- ### Optional
+  #### Logic
+    - [x] **Nor**
+    - [x] **Xnor**
+    - [ ] **Left Shift**
+  #### Artithmetics
+    - [ ] **Multiplication**

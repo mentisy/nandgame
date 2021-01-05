@@ -106,5 +106,17 @@
     "IO": {
         "Folder": "6 - Processor",
         "File": "6 - IO.json"
+    },
+    "NOR": {
+        "Folder": "99 - Optional",
+        "File": "1 - NOR.json"
+    },
+    "XNOR": {
+        "Folder": "99 - Optional",
+        "File": "2 - XNOR.json"
+    },
+    "SHL": {
+        "Folder": "99 - Optional",
+        "File": "3 - SHL.json"
     }
 }
