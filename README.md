@@ -49,11 +49,11 @@ simplest logical components and ends up with a programmable computer.
     - [ ] **Multiplication**
 
 ## Usage
+Pro-tip. Clear the levels in the game before you paste in the solutions.
+
 To install the solutions into the game itself, you'll need to the following:
 1. Run the code on a PHP server, or grab the contents of the [build file](build.txt).
 2. Open developer tools of your browser. On Chrome and Firefox, that is the F12 button.
 3. On the bottom of the developer tool page on the right hand side, you should see the console. If you don't see it, press escape key.
 4. Paste contents into the console.
 5. Refresh the page, and you should be all set.
-
-Pro-tip. Clear the levels in the game before you paste in the solutions.
